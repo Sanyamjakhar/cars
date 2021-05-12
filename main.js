@@ -15,7 +15,7 @@ car2_y = 100;
 
 background_image = "https://i.postimg.cc/bv5d35nK/racing.jpg";
 
-function add() {
+function add(onload) {
 	background_imgTag = new Image(); 
 	background_imgTag.onload = uploadBackground; 
 	background_imgTag.src = background_image;  
