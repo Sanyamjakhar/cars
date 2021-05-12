@@ -16,17 +16,17 @@ car2_y = 100;
 background_image = "https://i.postimg.cc/bv5d35nK/racing.jpg";
 
 function add() {
-	background_imgTag = new Image(); //defining a variable with a new image
-	background_imgTag.onload = uploadBackground; // setting a function, onloading this variable
-	background_imgTag.src = background_image;   // load image
+	background_imgTag = new Image(); 
+	background_imgTag.onload = uploadBackground; 
+	background_imgTag.src = background_image;  
 
-	car1_imgTag = new Image(); //defining a variable with a new image
-	car1_imgTag.onload = uploadcar1; // setting a function, onloading this variable
-	car1_imgTag.src = car1_image;   // load image
+	car1_imgTag = new Image(); 
+	car1_imgTag.onload = uploadcar1; 
+	car1_imgTag.src = car1_image;   
 
-	car2_imgTag = new Image(); //defining a variable with a new image
-	car2_imgTag.onload = uploadcar2; // setting a function, onloading this variable
-	car2_imgTag.src = car2_image;   // load image
+	car2_imgTag = new Image(); 
+	car2_imgTag.onload = uploadcar2; 
+	car2_imgTag.src = car2_image;   
 }
 
 function uploadBackground() {
